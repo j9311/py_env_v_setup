@@ -1,0 +1,242 @@
+Microsoft Windows [Version 10.0.19042.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MasterWin>cd pyproj
+
+C:\Users\MasterWin\pyproj>my_env\Scripts\activate
+
+(my_env) C:\Users\MasterWin\pyproj>print ("helloworld")
+Unable to initialize device PRN
+
+(my_env) C:\Users\MasterWin\pyproj>python
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("helloworld")
+helloworld
+>>> import numpy
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'numpy'
+>>> exit()
+
+(my_env) C:\Users\MasterWin\pyproj>pip install numpy
+Collecting numpy
+  Downloading numpy-1.21.1-cp39-cp39-win_amd64.whl (14.0 MB)
+     |████████████████████████████████| 14.0 MB 547 kB/s
+Installing collected packages: numpy
+Successfully installed numpy-1.21.1
+WARNING: You are using pip version 21.1.3; however, version 21.2.3 is available.
+You should consider upgrading via the 'c:\users\masterwin\pyproj\my_env\scripts\python.exe -m pip install --upgrade pip' command.
+
+(my_env) C:\Users\MasterWin\pyproj>python
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> 3+2
+5
+>>> deactivate
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'deactivate' is not defined
+>>> exit()
+
+(my_env) C:\Users\MasterWin\pyproj>deactivate
+C:\Users\MasterWin\pyproj>c:\Users\MasterWin\pyver\396\python -m venv esper_env
+The system cannot find the path specified.
+
+C:\Users\MasterWin\pyproj>c:\Users\MasterWin\pyver\py396\python -m venv esper_env
+
+C:\Users\MasterWin\pyproj>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 04C2-5103
+
+ Directory of C:\Users\MasterWin\pyproj
+
+08/06/2021  11:34 AM    <DIR>          .
+08/06/2021  11:34 AM    <DIR>          ..
+08/06/2021  11:34 AM    <DIR>          esper_env
+08/06/2021  11:24 AM    <DIR>          my_env
+               0 File(s)              0 bytes
+               4 Dir(s)  311,672,762,368 bytes free
+
+C:\Users\MasterWin\pyproj>tree esper_env
+Folder PATH listing
+Volume serial number is 00000098 04C2:5103
+C:\USERS\MASTERWIN\PYPROJ\ESPER_ENV
+├───Include
+├───Lib
+│   └───site-packages
+│       ├───pip
+│       │   ├───_internal
+│       │   │   ├───cli
+│       │   │   │   └───__pycache__
+│       │   │   ├───commands
+│       │   │   │   └───__pycache__
+│       │   │   ├───distributions
+│       │   │   │   └───__pycache__
+│       │   │   ├───index
+│       │   │   │   └───__pycache__
+│       │   │   ├───locations
+│       │   │   │   └───__pycache__
+│       │   │   ├───metadata
+│       │   │   │   └───__pycache__
+│       │   │   ├───models
+│       │   │   │   └───__pycache__
+│       │   │   ├───network
+│       │   │   │   └───__pycache__
+│       │   │   ├───operations
+│       │   │   │   ├───build
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───install
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───req
+│       │   │   │   └───__pycache__
+│       │   │   ├───resolution
+│       │   │   │   ├───legacy
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───resolvelib
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───utils
+│       │   │   │   └───__pycache__
+│       │   │   ├───vcs
+│       │   │   │   └───__pycache__
+│       │   │   └───__pycache__
+│       │   ├───_vendor
+│       │   │   ├───cachecontrol
+│       │   │   │   ├───caches
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───certifi
+│       │   │   │   └───__pycache__
+│       │   │   ├───chardet
+│       │   │   │   ├───cli
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───metadata
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───colorama
+│       │   │   │   └───__pycache__
+│       │   │   ├───distlib
+│       │   │   │   ├───_backport
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───html5lib
+│       │   │   │   ├───filters
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───treeadapters
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───treebuilders
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───treewalkers
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───_trie
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───idna
+│       │   │   │   └───__pycache__
+│       │   │   ├───msgpack
+│       │   │   │   └───__pycache__
+│       │   │   ├───packaging
+│       │   │   │   └───__pycache__
+│       │   │   ├───pep517
+│       │   │   │   ├───in_process
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───pkg_resources
+│       │   │   │   └───__pycache__
+│       │   │   ├───progress
+│       │   │   │   └───__pycache__
+│       │   │   ├───requests
+│       │   │   │   └───__pycache__
+│       │   │   ├───resolvelib
+│       │   │   │   ├───compat
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───tenacity
+│       │   │   │   └───__pycache__
+│       │   │   ├───toml
+│       │   │   │   └───__pycache__
+│       │   │   ├───urllib3
+│       │   │   │   ├───contrib
+│       │   │   │   │   ├───_securetransport
+│       │   │   │   │   │   └───__pycache__
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───packages
+│       │   │   │   │   ├───backports
+│       │   │   │   │   │   └───__pycache__
+│       │   │   │   │   ├───ssl_match_hostname
+│       │   │   │   │   │   └───__pycache__
+│       │   │   │   │   └───__pycache__
+│       │   │   │   ├───util
+│       │   │   │   │   └───__pycache__
+│       │   │   │   └───__pycache__
+│       │   │   ├───webencodings
+│       │   │   │   └───__pycache__
+│       │   │   └───__pycache__
+│       │   └───__pycache__
+│       ├───pip-21.1.3.dist-info
+│       ├───pkg_resources
+│       │   ├───extern
+│       │   │   └───__pycache__
+│       │   ├───tests
+│       │   │   └───data
+│       │   │       └───my-test-package-source
+│       │   │           └───__pycache__
+│       │   ├───_vendor
+│       │   │   ├───packaging
+│       │   │   │   └───__pycache__
+│       │   │   └───__pycache__
+│       │   └───__pycache__
+│       ├───setuptools
+│       │   ├───command
+│       │   │   └───__pycache__
+│       │   ├───extern
+│       │   │   └───__pycache__
+│       │   ├───_distutils
+│       │   │   ├───command
+│       │   │   │   └───__pycache__
+│       │   │   └───__pycache__
+│       │   ├───_vendor
+│       │   │   ├───packaging
+│       │   │   │   └───__pycache__
+│       │   │   └───__pycache__
+│       │   └───__pycache__
+│       ├───setuptools-56.0.0.dist-info
+│       └───_distutils_hack
+│           └───__pycache__
+└───Scripts
+
+C:\Users\MasterWin\pyproj>esper_env\Scripts\activate
+
+(esper_env) C:\Users\MasterWin\pyproj>pip numpy as np
+ERROR: unknown command "numpy"
+
+(esper_env) C:\Users\MasterWin\pyproj>pip num py as np
+ERROR: unknown command "num"
+
+(esper_env) C:\Users\MasterWin\pyproj>python
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 3+2
+5
+>>> exit()
+
+(esper_env) C:\Users\MasterWin\pyproj>pip install numpy as np
+Collecting numpy
+  Using cached numpy-1.21.1-cp39-cp39-win_amd64.whl (14.0 MB)
+ERROR: Could not find a version that satisfies the requirement as (from versions: none)
+ERROR: No matching distribution found for as
+WARNING: You are using pip version 21.1.3; however, version 21.2.3 is available.
+You should consider upgrading via the 'c:\users\masterwin\pyproj\esper_env\scripts\python.exe -m pip install --upgrade pip' command.
+
+(esper_env) C:\Users\MasterWin\pyproj>pip install numpy
+Collecting numpy
+  Using cached numpy-1.21.1-cp39-cp39-win_amd64.whl (14.0 MB)
+Installing collected packages: numpy
+Successfully installed numpy-1.21.1
+WARNING: You are using pip version 21.1.3; however, version 21.2.3 is available.
+You should consider upgrading via the 'c:\users\masterwin\pyproj\esper_env\scripts\python.exe -m pip install --upgrade pip' command.
+
+(esper_env) C:\Users\MasterWin\pyproj>
